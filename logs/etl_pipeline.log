@@ -1,0 +1,28 @@
+2025-08-03 15:25:08,822 - ETL_Scheduler - INFO - Scheduler started...
+2025-08-03 15:26:08,829 - ETL_Scheduler - INFO - Starting ETL job...
+2025-08-03 15:26:38,106 - etl.load - INFO - Started Loading data to csv file
+2025-08-03 15:26:38,188 - etl.load - INFO - Loaded data to csv file
+2025-08-03 15:26:38,191 - etl.load - INFO - Connecting to Snowflake to load data into table
+2025-08-03 15:26:42,709 - etl.load - INFO - Data successfully loaded into Snowflake
+2025-08-03 15:26:42,709 - etl.load - INFO - Loaded 2 rows to Snowflake
+2025-08-03 15:26:42,709 - etl.load - INFO -  Data loaded to: C:\Users\Nandhan\AppData\Local\Temp\pytest-of-Nandhan\pytest-10\test_load_data_success0\output.csv
+2025-08-03 15:26:42,951 - etl.transform - INFO - Starting transformation process
+2025-08-03 15:26:44,327 - etl.transform - INFO - After dropping nulls: 4 rows
+2025-08-03 15:26:45,820 - etl.transform - INFO - After volume filter: 3 rows
+2025-08-03 15:26:45,915 - etl.transform - INFO - [Success] Data transformed successfully
+2025-08-03 15:26:58,342 - etl.extract - INFO - Extracting data from C:\Users\Nandhan\Downloads\stocks\all_stocks_5yr.csv
+2025-08-03 15:27:05,722 - etl.extract - INFO - [Success] Data extracted successfully
+2025-08-03 15:27:05,722 - etl.extract - INFO - Schema:
+None
+2025-08-03 15:27:06,626 - etl.extract - INFO - Row count: 619040 | Column count: 7
+2025-08-03 15:27:06,626 - etl.transform - INFO - Starting transformation process
+2025-08-03 15:27:07,496 - etl.transform - INFO - After dropping nulls: 619029 rows
+2025-08-03 15:27:08,463 - etl.transform - INFO - After volume filter: 478181 rows
+2025-08-03 15:27:08,558 - etl.transform - INFO - [Success] Data transformed successfully
+2025-08-03 15:27:17,632 - etl.load - INFO - Started Loading data to csv file
+2025-08-03 15:27:20,510 - etl.load - INFO - Loaded data to csv file
+2025-08-03 15:27:20,510 - etl.load - INFO - Connecting to Snowflake to load data into table
+2025-08-03 15:27:28,399 - etl.load - INFO - Data successfully loaded into Snowflake
+2025-08-03 15:27:28,399 - etl.load - INFO - Loaded 478181 rows to Snowflake
+2025-08-03 15:27:28,399 - etl.load - INFO -  Data loaded to: G:\\Financial_ETL_Pipeline\\data\\data.csv
+2025-08-03 15:27:29,580 - ETL_Scheduler - INFO - ETL job completed successfully.

@@ -1,0 +1,27 @@
+# Environment variables
+venv310/
+.env
+.venv310/Lib/site-packages
+
+# Python virtual environment
+
+# Python cache files
+./etl/__pycache__/
+.pytest_cache/
+tests/__pycache__/
+scripts/logs/
+.scripts/.pytest_cache/
+data/
+
+# OS or IDE-specific
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
